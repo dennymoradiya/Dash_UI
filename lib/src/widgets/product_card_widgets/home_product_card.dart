@@ -57,7 +57,7 @@ class HomeProductCard extends StatelessWidget {
         location: RibbonLocation.topEnd,
         child: Container(
           width: isMobile(context) ? 165.w : 120.w,
-          height: 230.h,
+          height: 240.h,
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.all(
@@ -197,6 +197,7 @@ class HomeProductCard extends StatelessWidget {
                                 ),
                               ),
                             ),
+                           SizedBox(height: 5.h),   
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 7.w),
                         child: Text(dataModel![index].title!,
@@ -277,7 +278,7 @@ class HomeProductCard extends StatelessWidget {
                                 height: isMobile(context) ? 26.h : 30.h,
                                 // width: _cartController.incrementProduct(dataModel![index].id)!=-1 ? isMobile(context)?90.w:55.w:isMobile(context)?35.w:20.w,
                                 decoration: BoxDecoration(
-                                  color: Colors.grey.withOpacity(0.25),
+                                  color: _cartController.incrementProduct(dataModel![index].id)!=-1 ?Colors.grey.withOpacity(0.25):Colors.white,
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(28.r),
                                   ),
@@ -305,19 +306,19 @@ class HomeProductCard extends StatelessWidget {
                                                 isMobile(context) ? 24.w : 18.w,
                                             alignment: Alignment.center,
                                             decoration: BoxDecoration(
-                                              color: AppThemeData
-                                                  .cartItemBoxDecorationColor,
-                                              shape: BoxShape.circle,
-                                              boxShadow: [
-                                                BoxShadow(
-                                                  spreadRadius: 3,
-                                                  blurRadius: 2,
-                                                  color: AppThemeData
-                                                      .boxShadowColor
-                                                      .withOpacity(0.1),
-                                                  offset: const Offset(0, 0),
-                                                )
-                                              ],
+                                              // color: AppThemeData
+                                              //     .cartItemBoxDecorationColor,
+                                              // shape: BoxShape.circle,
+                                              // boxShadow: [
+                                              //   BoxShadow(
+                                              //     spreadRadius: 3,
+                                              //     blurRadius: 2,
+                                              //     color: AppThemeData
+                                              //         .boxShadowColor
+                                              //         .withOpacity(0.1),
+                                              //     offset: const Offset(0, 0),
+                                              //   )
+                                              // ],
                                             ),
                                             child: _cartController
                                                         .isCartUpdating &&
@@ -331,7 +332,7 @@ class HomeProductCard extends StatelessWidget {
                                                     strokeWidth: 1)
                                                 : Icon(
                                                     Icons.add,
-                                                    size: 16.r,
+                                                    size: 18.r,
                                                     color: AppThemeData
                                                         .cartItemIconColor,
                                                   ),

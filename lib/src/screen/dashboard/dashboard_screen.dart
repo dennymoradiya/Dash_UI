@@ -47,13 +47,13 @@ class DashboardScreen extends StatelessWidget {
             BottomNavigationBarItem(
                 activeIcon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 0,
-                  logo: "home",
+                  logo: "Home",
                   height: 25.w,
                   width: 25.h,
                 ),
                 icon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 0,
-                  logo: "home",
+                  logo: "home-1",
                   height: 21.h,
                   width: 21.w,
                 ),
@@ -62,13 +62,13 @@ class DashboardScreen extends StatelessWidget {
             BottomNavigationBarItem(
                 activeIcon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 1,
-                  logo: "grid",
+                  logo: "category",
                   height: 25.h,
                   width: 25.w,
                 ),
                 icon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 1,
-                  logo: "grid",
+                  logo: "category-1",
                   height: 21.h,
                   width: 21.w,
                 ),
@@ -77,14 +77,14 @@ class DashboardScreen extends StatelessWidget {
             BottomNavigationBarItem(
                 activeIcon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 2,
-                  logo: "cart_",
+                  logo: "cart",
                   height: 27.h,
                   width: 27.w,
                   isCart: true,
                 ),
                 icon: _bottomNavIconBuilder(
                   isSelected: homeController.tabIndex.value == 2,
-                  logo: "cart_",
+                  logo: "cart-1",
                   height: 22.h,
                   width: 22.w,
                   isCart: true,
@@ -109,13 +109,13 @@ class DashboardScreen extends StatelessWidget {
             BottomNavigationBarItem(
               activeIcon: _bottomNavIconBuilder(
                 isSelected: homeController.tabIndex.value == 4,
-                logo: "Profile",
+                logo: "profile",
                 height: 25.h,
                 width: 25.w,
               ),
               icon: _bottomNavIconBuilder(
                 isSelected: homeController.tabIndex.value == 4,
-                logo: "Profile",
+                logo: "profile-1",
                 height: 21.h,
                 width: 21.w,
               ),

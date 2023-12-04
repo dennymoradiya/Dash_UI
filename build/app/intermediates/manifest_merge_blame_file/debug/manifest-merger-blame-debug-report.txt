@@ -1,0 +1,1179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spagreen.yoori"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:4:5-66
+14-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission
+15-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:5:5-80
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:5:22-77
+17        android:maxSdkVersion="32" />
+17-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-35
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:6:5-81
+18-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:6:22-78
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:7:5-77
+19-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:7:22-74
+20
+21    <queries>
+21-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:48:5-50:15
+22        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+22-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:49:9-89
+22-->/Users/goflamingo/Documents/projects/Dash_UI/android/app/src/main/AndroidManifest.xml:49:19-86
+23
+24        <intent>
+24-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+25            <action android:name="android.support.customtabs.action.CustomTabsService" />
+25-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+25-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+26        </intent>
+27
+28        <package android:name="com.facebook.katana" />
+28-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:9-55
+28-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:18-52
+29
+30        <intent>
+30-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+31            <action android:name="android.media.browse.MediaBrowserService" />
+31-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+31-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+32        </intent>
+33        <intent>
+33-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+34            <action android:name="androidx.media2.session.MediaSessionService" />
+34-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+34-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+35        </intent>
+36        <intent>
+36-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+37            <action android:name="androidx.media2.session.MediaLibraryService" />
+37-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+37-->[androidx.media2:media2-session:1.2.1] /Users/goflamingo/.gradle/caches/transforms-3/a852e19ae395e48fc68c89a2547065c9/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+41-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+42    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+42-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+42-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+43    <permission
+43-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:7:5-9:47
+44        android:name="com.spagreen.yoori.permission.C2D_MESSAGE"
+44-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:8:9-63
+45        android:protectionLevel="signature" />
+45-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:9:9-44
+46
+47    <uses-permission android:name="com.spagreen.yoori.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
+47-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:11:5-79
+47-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:11:22-76
+48    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
+49    <!-- Required runtime permission to display notifications on Android 13 -->
+50    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+50-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:16:5-77
+50-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:16:22-74
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:18:5-82
+51-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:18:22-79
+52    <!--
+53 Required so the device vibrates on receiving a push notification.
+54         Vibration settings of the device still apply.
+55    -->
+56    <uses-permission android:name="android.permission.VIBRATE" />
+56-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:24:5-66
+56-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:24:22-63
+57    <!--
+58 Use to restore notifications the user hasn't interacted with.
+59         They could be missed notifications if the user reboots their device if this isn't in place.
+60    -->
+61    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+61-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:30:5-81
+61-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:30:22-78
+62    <!-- Samsung -->
+63    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+63-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:32:5-86
+63-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:32:22-83
+64    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+64-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:33:5-87
+64-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:33:22-84
+65    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+65-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:34:5-81
+65-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:34:22-78
+66    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+66-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:35:5-83
+66-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:35:22-80
+67    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+67-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:36:5-88
+67-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:36:22-85
+68    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+68-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:37:5-92
+68-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:37:22-89
+69    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+69-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:38:5-84
+69-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:38:22-81
+70    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+70-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:39:5-83
+70-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:39:22-80
+71    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+71-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:40:5-91
+71-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:40:22-88
+72    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+72-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:41:5-92
+72-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:41:22-89
+73    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+73-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:42:5-93
+73-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:42:22-90
+74    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+74-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:43:5-73
+74-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:43:22-70
+75    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+75-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:44:5-82
+75-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:44:22-79
+76    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+76-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:45:5-83
+76-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:45:22-80
+77    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+77-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:46:5-88
+77-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:46:22-85
+78    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+78-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:47:5-89
+78-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:47:22-86
+79    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+79-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:5-79
+79-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:22-76
+80    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+80-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:5-88
+80-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:22-85
+81    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+81-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:5-82
+81-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:22-79
+82    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+82-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
+82-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:22-107
+83
+84    <permission
+84-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+85        android:name="com.spagreen.yoori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+85-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+86        android:protectionLevel="signature" />
+86-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+87
+88    <uses-permission android:name="com.spagreen.yoori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+88-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+88-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+89
+90    <application
+91        android:name="android.app.Application"
+92        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+92-->[androidx.core:core:1.10.1] /Users/goflamingo/.gradle/caches/transforms-3/9ab945b61f7b79b3669d93626fdea8fa/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+93        android:debuggable="true"
+94        android:icon="@mipmap/ic_launcher"
+95        android:label="YOORI"
+96        android:requestLegacyExternalStorage="true"
+97        android:supportsRtl="true"
+97-->[com.facebook.android:facebook-android-sdk:8.2.0] /Users/goflamingo/.gradle/caches/transforms-3/92a2aedf89052881db9667b83d2b1485/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
+98        android:usesCleartextTraffic="true" >
+99        <meta-data
+100            android:name="com.facebook.sdk.ApplicationId"
+101            android:value="@string/facebook_app_id" />
+102        <meta-data
+103            android:name="com.facebook.sdk.ClientToken"
+104            android:value="@string/facebook_client_token" />
+105
+106        <activity
+107            android:name="com.spagreen.yoori.MainActivity"
+108            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+109            android:exported="true"
+110            android:hardwareAccelerated="true"
+111            android:launchMode="singleTop"
+112            android:theme="@style/LaunchTheme"
+113            android:windowSoftInputMode="adjustResize" >
+114            <meta-data
+115                android:name="io.flutter.embedding.android.NormalTheme"
+116                android:resource="@style/NormalTheme" />
+117
+118            <intent-filter>
+119                <action android:name="android.intent.action.MAIN" />
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+122            </intent-filter>
+123        </activity>
+124
+125        <meta-data
+126            android:name="flutterEmbedding"
+127            android:value="2" />
+128
+129        <activity
+130            android:name="com.facebook.FacebookActivity"
+131            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+132            android:label="@string/app_name"
+133            android:theme="@style/com_facebook_activity_theme" />
+133-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:37:13-63
+134
+135        <service
+135-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+136            android:name="com.google.firebase.components.ComponentDiscoveryService"
+136-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:68:13-37
+139            <meta-data
+139-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+140                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+140-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-128
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[:firebase_analytics] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+142            <meta-data
+142-->[:firebase_auth] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+143                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+143-->[:firebase_auth] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[:firebase_auth] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+145            <meta-data
+145-->[:firebase_core] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+146                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+146-->[:firebase_core] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[:firebase_core] /Users/goflamingo/Documents/projects/Dash_UI/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+149                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+149-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+152                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+152-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+155                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+155-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+157            <meta-data
+157-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+158                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+158-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+161                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+161-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+164                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+164-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-installations:17.2.0] /Users/goflamingo/.gradle/caches/transforms-3/02ca9a6fd77d96c567b5a0c68819df4e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/6f6c2cf61ceecb9bfeec63cac824c65f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+167                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+167-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/6f6c2cf61ceecb9bfeec63cac824c65f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/6f6c2cf61ceecb9bfeec63cac824c65f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+170                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+170-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/goflamingo/.gradle/caches/transforms-3/bafb48a0d091ba4f039de20a1f0dd205/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+173                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+173-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/goflamingo/.gradle/caches/transforms-3/bafb48a0d091ba4f039de20a1f0dd205/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/goflamingo/.gradle/caches/transforms-3/bafb48a0d091ba4f039de20a1f0dd205/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+175        </service>
+176
+177        <activity
+177-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+178            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+178-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+179            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+179-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+180            android:exported="false"
+180-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+181            android:theme="@style/AppTheme" />
+181-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+182        <activity
+182-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+183            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+183-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+184            android:exported="false"
+184-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+185            android:theme="@style/ThemeTransparent" />
+185-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+186        <activity
+186-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+187            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+187-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+188            android:exported="false"
+188-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-37
+189            android:theme="@style/ThemeTransparent" />
+189-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+190        <activity
+190-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+191            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+191-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+192            android:exported="false"
+192-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+193            android:launchMode="singleInstance"
+193-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+194            android:theme="@style/ThemeTransparent" />
+194-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+195        <activity
+195-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+196            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+196-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+197            android:exported="false"
+197-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+198            android:launchMode="singleInstance"
+198-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+199            android:theme="@style/ThemeTransparent" />
+199-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+200
+201        <receiver
+201-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+202            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+202-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+203            android:enabled="true"
+203-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+204            android:exported="false" />
+204-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+205
+206        <meta-data
+206-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+207            android:name="io.flutter.embedded_views_preview"
+207-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+208            android:value="true" />
+208-->[:flutter_inappwebview] /Users/goflamingo/Documents/projects/Dash_UI/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+209
+210        <provider
+210-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+211            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+211-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+212            android:authorities="com.spagreen.yoori.flutter.share_provider"
+212-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+213            android:exported="false"
+213-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+214            android:grantUriPermissions="true" >
+214-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+215            <meta-data
+215-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+216                android:name="android.support.FILE_PROVIDER_PATHS"
+216-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+217                android:resource="@xml/flutter_share_file_paths" />
+217-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+218        </provider>
+219        <provider
+219-->[:image_picker_android] /Users/goflamingo/Documents/projects/Dash_UI/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+220            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+220-->[:image_picker_android] /Users/goflamingo/Documents/projects/Dash_UI/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+221            android:authorities="com.spagreen.yoori.flutter.image_provider"
+221-->[:image_picker_android] /Users/goflamingo/Documents/projects/Dash_UI/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+222            android:exported="false"
+222-->[:image_picker_android] /Users/goflamingo/Documents/projects/Dash_UI/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+223            android:grantUriPermissions="true" >
+223-->[:image_picker_android] /Users/goflamingo/Documents/projects/Dash_UI/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+224            <meta-data
+224-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+225                android:name="android.support.FILE_PROVIDER_PATHS"
+225-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+226                android:resource="@xml/flutter_image_picker_file_paths" />
+226-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+227        </provider>
+228
+229        <activity
+229-->[:url_launcher_android] /Users/goflamingo/Documents/projects/Dash_UI/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+230            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+230-->[:url_launcher_android] /Users/goflamingo/Documents/projects/Dash_UI/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+231            android:exported="false"
+231-->[:url_launcher_android] /Users/goflamingo/Documents/projects/Dash_UI/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+232            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+232-->[:url_launcher_android] /Users/goflamingo/Documents/projects/Dash_UI/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+233
+234        <provider
+234-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-24:20
+235            android:name="com.joutvhu.openfile.FileProvider"
+235-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-61
+236            android:authorities="com.spagreen.yoori.fileProvider.com.joutvhu.openfile"
+236-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-85
+237            android:exported="false"
+237-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+238            android:grantUriPermissions="true" >
+238-->[:open_file_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/open_file_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+239            <meta-data
+239-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+240                android:name="android.support.FILE_PROVIDER_PATHS"
+240-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+241                android:resource="@xml/filepaths" />
+241-->[:share_plus] /Users/goflamingo/Documents/projects/Dash_UI/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+242        </provider>
+243
+244        <receiver
+244-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:50:9-61:20
+245            android:name="com.onesignal.FCMBroadcastReceiver"
+245-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:51:13-62
+246            android:exported="true"
+246-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:52:13-36
+247            android:permission="com.google.android.c2dm.permission.SEND" >
+247-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:53:13-73
+248
+249            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+250            <intent-filter android:priority="999" >
+250-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:56:13-60:29
+250-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:56:28-50
+251                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+251-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:17-81
+251-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:25-78
+252
+253                <category android:name="com.spagreen.yoori" />
+253-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:59:17-61
+253-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:59:27-58
+254            </intent-filter>
+255        </receiver>
+256
+257        <service
+257-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:63:9-69:19
+258            android:name="com.onesignal.HmsMessageServiceOneSignal"
+258-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:64:13-68
+259            android:exported="false" >
+259-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:65:13-37
+260            <intent-filter>
+260-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:66:13-68:29
+261                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+261-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:67:17-81
+261-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:67:25-78
+262            </intent-filter>
+263        </service>
+264
+265        <activity
+265-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:71:9-79:20
+266            android:name="com.onesignal.NotificationOpenedActivityHMS"
+266-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:72:13-71
+267            android:exported="true"
+267-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:73:13-36
+268            android:noHistory="true"
+268-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:74:13-37
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+269-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:75:13-72
+270            <intent-filter>
+270-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:76:13-78:29
+271                <action android:name="android.intent.action.VIEW" />
+271-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:17-69
+271-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:25-66
+272            </intent-filter>
+273        </activity>
+274
+275        <service
+275-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:81:9-83:40
+276            android:name="com.onesignal.FCMIntentService"
+276-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:82:13-58
+277            android:exported="false" />
+277-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:83:13-37
+278        <service
+278-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:84:9-87:72
+279            android:name="com.onesignal.FCMIntentJobService"
+279-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:85:13-61
+280            android:exported="false"
+280-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:86:13-37
+281            android:permission="android.permission.BIND_JOB_SERVICE" />
+281-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:87:13-69
+282        <service
+282-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:88:9-91:43
+283            android:name="com.onesignal.SyncService"
+283-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:89:13-53
+284            android:exported="false"
+284-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:90:13-37
+285            android:stopWithTask="true" />
+285-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:91:13-40
+286        <service
+286-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:92:9-95:72
+287            android:name="com.onesignal.SyncJobService"
+287-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:93:13-56
+288            android:exported="false"
+288-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:94:13-37
+289            android:permission="android.permission.BIND_JOB_SERVICE" />
+289-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:95:13-69
+290
+291        <activity
+291-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:97:9-100:75
+292            android:name="com.onesignal.PermissionsActivity"
+292-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:98:13-61
+293            android:exported="false"
+293-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:99:13-37
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:100:13-72
+295
+296        <receiver
+296-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:102:9-104:39
+297            android:name="com.onesignal.NotificationDismissReceiver"
+297-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:103:13-69
+298            android:exported="true" />
+298-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:104:13-36
+299        <receiver
+299-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:105:9-112:20
+300            android:name="com.onesignal.BootUpReceiver"
+300-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:106:13-56
+301            android:exported="true" >
+301-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:107:13-36
+302            <intent-filter>
+302-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:108:13-111:29
+303                <action android:name="android.intent.action.BOOT_COMPLETED" />
+303-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:17-79
+303-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:25-76
+304                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+304-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:110:17-82
+304-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:110:25-79
+305            </intent-filter>
+306        </receiver>
+307        <receiver
+307-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:113:9-119:20
+308            android:name="com.onesignal.UpgradeReceiver"
+308-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:114:13-57
+309            android:exported="true" >
+309-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:115:13-36
+310            <intent-filter>
+310-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:116:13-118:29
+311                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+311-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:117:17-84
+311-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:117:25-81
+312            </intent-filter>
+313        </receiver>
+314
+315        <activity
+315-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:121:9-127:75
+316            android:name="com.onesignal.NotificationOpenedReceiver"
+316-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:122:13-68
+317            android:excludeFromRecents="true"
+317-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:123:13-46
+318            android:exported="true"
+318-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:124:13-36
+319            android:noHistory="true"
+319-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:125:13-37
+320            android:taskAffinity=""
+320-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:126:13-36
+321            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+321-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:127:13-72
+322        <activity
+322-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:128:9-133:75
+323            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+323-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:129:13-85
+324            android:excludeFromRecents="true"
+324-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:130:13-46
+325            android:exported="true"
+325-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:131:13-36
+326            android:noHistory="true"
+326-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:132:13-37
+327            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+327-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:133:13-72
+328        <activity
+328-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+329            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+329-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+330            android:excludeFromRecents="true"
+330-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+331            android:exported="true"
+331-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+332            android:launchMode="singleTask"
+332-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+333            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+333-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+334            <intent-filter>
+334-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+335                <action android:name="android.intent.action.VIEW" />
+335-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:17-69
+335-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:25-66
+336
+337                <category android:name="android.intent.category.DEFAULT" />
+337-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+337-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+338                <category android:name="android.intent.category.BROWSABLE" />
+338-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+338-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+339
+340                <data
+340-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+341                    android:host="firebase.auth"
+341-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+342                    android:path="/"
+342-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+343                    android:scheme="genericidp" />
+343-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+344            </intent-filter>
+345        </activity>
+346        <activity
+346-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+347            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+347-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+348            android:excludeFromRecents="true"
+348-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+349            android:exported="true"
+349-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+350            android:launchMode="singleTask"
+350-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+351            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+351-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+352            <intent-filter>
+352-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+353                <action android:name="android.intent.action.VIEW" />
+353-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:17-69
+353-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:25-66
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+355-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+356                <category android:name="android.intent.category.BROWSABLE" />
+356-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+356-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+357
+358                <data
+358-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+359                    android:host="firebase.auth"
+359-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+360                    android:path="/"
+360-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+361                    android:scheme="recaptcha" />
+361-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+362            </intent-filter>
+363        </activity>
+364
+365        <receiver
+365-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+366            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+366-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+367            android:exported="true"
+367-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+368            android:permission="com.google.android.c2dm.permission.SEND" >
+368-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+369            <intent-filter>
+369-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:33:13-35:29
+370                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+370-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:17-81
+370-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:25-78
+371            </intent-filter>
+372
+373            <meta-data
+373-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+374                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+374-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+375                android:value="true" />
+375-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+376        </receiver>
+377        <!--
+378             FirebaseMessagingService performs security checks at runtime,
+379             but set to not exported to explicitly avoid allowing another app to call it.
+380        -->
+381        <service
+381-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+382            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+382-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+383            android:directBootAware="true"
+383-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+384            android:exported="false" >
+384-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+385            <intent-filter android:priority="-500" >
+385-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:13-52:29
+385-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:28-51
+386                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+386-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:51:17-78
+386-->[com.google.firebase:firebase-messaging:23.3.1] /Users/goflamingo/.gradle/caches/transforms-3/7dc06b14dfde6ce0ade6650c9eae948b/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:51:25-75
+387            </intent-filter>
+388        </service>
+389
+390        <property
+390-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+391            android:name="android.adservices.AD_SERVICES_CONFIG"
+391-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+392            android:resource="@xml/ga_ad_services_config" />
+392-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/b8c4499e51d8294b5743ad85be220594/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+393
+394        <receiver
+394-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+395            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+395-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+396            android:enabled="true"
+396-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+397            android:exported="false" >
+397-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+398        </receiver>
+399
+400        <service
+400-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+401            android:name="com.google.android.gms.measurement.AppMeasurementService"
+401-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+402            android:enabled="true"
+402-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+403            android:exported="false" />
+403-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+404        <service
+404-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+405            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+405-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+406            android:enabled="true"
+406-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+407            android:exported="false"
+407-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+408            android:permission="android.permission.BIND_JOB_SERVICE" />
+408-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/goflamingo/.gradle/caches/transforms-3/f8d6cbbc7b002e4ed4c028751a2e8533/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+409
+410        <uses-library
+410-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/goflamingo/.gradle/caches/transforms-3/0380f38d86dede661a0f858d21c0c3ef/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+411            android:name="android.ext.adservices"
+411-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/goflamingo/.gradle/caches/transforms-3/0380f38d86dede661a0f858d21c0c3ef/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+412            android:required="false" />
+412-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/goflamingo/.gradle/caches/transforms-3/0380f38d86dede661a0f858d21c0c3ef/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+413
+414        <activity android:name="com.facebook.CustomTabMainActivity" />
+414-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:9-71
+414-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:19-68
+415        <activity
+415-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:39:9-53:20
+416            android:name="com.facebook.CustomTabActivity"
+416-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:40:13-58
+417            android:exported="true" >
+417-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:41:13-36
+418            <intent-filter>
+418-->[com.facebook.android:facebook-common:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/4d69277ebd13f36212acd7fb24ccef59/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:43:13-52:29
+419                <action android:name="android.intent.action.VIEW" />
+419-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:17-69
+419-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:77:25-66
+420
+421                <category android:name="android.intent.category.DEFAULT" />
+421-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+421-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+422                <category android:name="android.intent.category.BROWSABLE" />
+422-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+422-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+423
+424                <data
+424-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+425                    android:host="cct.com.spagreen.yoori"
+425-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+426                    android:scheme="fbconnect" />
+426-->[com.google.firebase:firebase-auth:22.3.0] /Users/goflamingo/.gradle/caches/transforms-3/da2ae394b8b468e2298a90255189b248/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+427            </intent-filter>
+428        </activity>
+429        <activity
+429-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+430            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+430-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+431            android:excludeFromRecents="true"
+431-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+432            android:exported="false"
+432-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+433            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+433-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+434        <!--
+435            Service handling Google Sign-In user revocation. For apps that do not integrate with
+436            Google Sign-In, this service will never be started.
+437        -->
+438        <service
+438-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+439            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+439-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+440            android:exported="true"
+440-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+441            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+441-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+442            android:visibleToInstantApps="true" />
+442-->[com.google.android.gms:play-services-auth:20.7.0] /Users/goflamingo/.gradle/caches/transforms-3/50acd45cadd5e88b96f01544922e1ef4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+443
+444        <activity
+444-->[com.google.android.gms:play-services-base:18.0.1] /Users/goflamingo/.gradle/caches/transforms-3/77f11e7ba3a776972b545be8ba3cc3ae/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+445            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+445-->[com.google.android.gms:play-services-base:18.0.1] /Users/goflamingo/.gradle/caches/transforms-3/77f11e7ba3a776972b545be8ba3cc3ae/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+446            android:exported="false"
+446-->[com.google.android.gms:play-services-base:18.0.1] /Users/goflamingo/.gradle/caches/transforms-3/77f11e7ba3a776972b545be8ba3cc3ae/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+447            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+447-->[com.google.android.gms:play-services-base:18.0.1] /Users/goflamingo/.gradle/caches/transforms-3/77f11e7ba3a776972b545be8ba3cc3ae/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+448
+449        <provider
+449-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+450            android:name="com.google.firebase.provider.FirebaseInitProvider"
+450-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+451            android:authorities="com.spagreen.yoori.firebaseinitprovider"
+451-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+452            android:directBootAware="true"
+452-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+453            android:exported="false"
+453-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+454            android:initOrder="100" />
+454-->[com.google.firebase:firebase-common:20.4.2] /Users/goflamingo/.gradle/caches/transforms-3/fcf65bc17c2dba95146707cb102e36e7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+455
+456        <meta-data
+456-->[com.google.android.gms:play-services-basement:18.2.0] /Users/goflamingo/.gradle/caches/transforms-3/132d5a35fe9da6d220a202bdabfeea78/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+457            android:name="com.google.android.gms.version"
+457-->[com.google.android.gms:play-services-basement:18.2.0] /Users/goflamingo/.gradle/caches/transforms-3/132d5a35fe9da6d220a202bdabfeea78/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+458            android:value="@integer/google_play_services_version" />
+458-->[com.google.android.gms:play-services-basement:18.2.0] /Users/goflamingo/.gradle/caches/transforms-3/132d5a35fe9da6d220a202bdabfeea78/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+459
+460        <provider
+460-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+461            android:name="androidx.startup.InitializationProvider"
+461-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+462            android:authorities="com.spagreen.yoori.androidx-startup"
+462-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+463            android:exported="false" >
+463-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+464            <meta-data
+464-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+465                android:name="androidx.work.WorkManagerInitializer"
+465-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+466                android:value="androidx.startup" />
+466-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+467            <meta-data
+467-->[androidx.emoji2:emoji2:1.2.0] /Users/goflamingo/.gradle/caches/transforms-3/6f7d2c760914564d7759f5a611399719/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+468                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+468-->[androidx.emoji2:emoji2:1.2.0] /Users/goflamingo/.gradle/caches/transforms-3/6f7d2c760914564d7759f5a611399719/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+469                android:value="androidx.startup" />
+469-->[androidx.emoji2:emoji2:1.2.0] /Users/goflamingo/.gradle/caches/transforms-3/6f7d2c760914564d7759f5a611399719/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+470            <meta-data
+470-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/goflamingo/.gradle/caches/transforms-3/99f356dbee03d7f2a2688753c8a6df72/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+471                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+471-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/goflamingo/.gradle/caches/transforms-3/99f356dbee03d7f2a2688753c8a6df72/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+472                android:value="androidx.startup" />
+472-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/goflamingo/.gradle/caches/transforms-3/99f356dbee03d7f2a2688753c8a6df72/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+473            <meta-data
+473-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+474                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+474-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+475                android:value="androidx.startup" />
+475-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+476        </provider>
+477
+478        <service
+478-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+479            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+479-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+480            android:directBootAware="false"
+480-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+481            android:enabled="@bool/enable_system_alarm_service_default"
+481-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+482            android:exported="false" />
+482-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+483        <service
+483-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+484            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+484-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+485            android:directBootAware="false"
+485-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+486            android:enabled="@bool/enable_system_job_service_default"
+486-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+487            android:exported="true"
+487-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+488            android:permission="android.permission.BIND_JOB_SERVICE" />
+488-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+489        <service
+489-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+490            android:name="androidx.work.impl.foreground.SystemForegroundService"
+490-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+491            android:directBootAware="false"
+491-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+492            android:enabled="@bool/enable_system_foreground_service_default"
+492-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+493            android:exported="false" />
+493-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+494
+495        <receiver
+495-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+496            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+496-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+497            android:directBootAware="false"
+497-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+498            android:enabled="true"
+498-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+499            android:exported="false" />
+499-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+500        <receiver
+500-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+501            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+501-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+502            android:directBootAware="false"
+502-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+503            android:enabled="false"
+503-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+504            android:exported="false" >
+504-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+505            <intent-filter>
+505-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+506                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+506-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+506-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+507                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+507-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+507-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+508            </intent-filter>
+509        </receiver>
+510        <receiver
+510-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+511            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+511-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+512            android:directBootAware="false"
+512-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+513            android:enabled="false"
+513-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+514            android:exported="false" >
+514-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+515            <intent-filter>
+515-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+516                <action android:name="android.intent.action.BATTERY_OKAY" />
+516-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+516-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+517                <action android:name="android.intent.action.BATTERY_LOW" />
+517-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+517-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+518            </intent-filter>
+519        </receiver>
+520        <receiver
+520-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+521            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+521-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+522            android:directBootAware="false"
+522-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+523            android:enabled="false"
+523-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+524            android:exported="false" >
+524-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+525            <intent-filter>
+525-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+526                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+526-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+526-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+527                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+527-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+527-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+528            </intent-filter>
+529        </receiver>
+530        <receiver
+530-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+531            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+531-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+532            android:directBootAware="false"
+532-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+533            android:enabled="false"
+533-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+534            android:exported="false" >
+534-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+535            <intent-filter>
+535-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+536                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+536-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+536-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+537            </intent-filter>
+538        </receiver>
+539        <receiver
+539-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+540            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+540-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+541            android:directBootAware="false"
+541-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+542            android:enabled="false"
+542-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+543            android:exported="false" >
+543-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+544            <intent-filter>
+544-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+545                <action android:name="android.intent.action.BOOT_COMPLETED" />
+545-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:17-79
+545-->[com.onesignal:OneSignal:4.8.5] /Users/goflamingo/.gradle/caches/transforms-3/1041c3853f7842cb80a7a0c44d77da37/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:25-76
+546                <action android:name="android.intent.action.TIME_SET" />
+546-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+546-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+547                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+547-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+547-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+548            </intent-filter>
+549        </receiver>
+550        <receiver
+550-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+551            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+551-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+552            android:directBootAware="false"
+552-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+553            android:enabled="@bool/enable_system_alarm_service_default"
+553-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+554            android:exported="false" >
+554-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+555            <intent-filter>
+555-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+556                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+556-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+556-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+557            </intent-filter>
+558        </receiver>
+559        <receiver
+559-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+560            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+560-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+561            android:directBootAware="false"
+561-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+562            android:enabled="true"
+562-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+563            android:exported="true"
+563-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+564            android:permission="android.permission.DUMP" >
+564-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+565            <intent-filter>
+565-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+566                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+566-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+566-->[androidx.work:work-runtime:2.7.1] /Users/goflamingo/.gradle/caches/transforms-3/4f735e08edd981f290aa2d73e197a357/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+567            </intent-filter>
+568        </receiver>
+569        <!--
+570         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+571         with the application context. This config is merged in with the host app's manifest,
+572         but there can only be one provider with the same authority activated at any given
+573         point; so if the end user has two or more different apps that use Facebook SDK, only the
+574         first one will be able to use the provider. To work around this problem, we use the
+575         following placeholder in the authority to identify each host application as if it was
+576         a completely different provider.
+577        -->
+578        <provider
+578-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:41:9-44:40
+579            android:name="com.facebook.internal.FacebookInitProvider"
+579-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:42:13-70
+580            android:authorities="com.spagreen.yoori.FacebookInitProvider"
+580-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:43:13-72
+581            android:exported="false" />
+581-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:44:13-37
+582
+583        <receiver
+583-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:46:9-52:20
+584            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+584-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:47:13-86
+585            android:exported="false" >
+585-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:48:13-37
+586            <intent-filter>
+586-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:49:13-51:29
+587                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+587-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:17-95
+587-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:25-92
+588            </intent-filter>
+589        </receiver>
+590        <receiver
+590-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:53:9-59:20
+591            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+591-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:54:13-118
+592            android:exported="false" >
+592-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:55:13-37
+593            <intent-filter>
+593-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:56:13-58:29
+594                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+594-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:17-103
+594-->[com.facebook.android:facebook-core:14.1.1] /Users/goflamingo/.gradle/caches/transforms-3/788086c1c3901a784aa0ac8139c5fe4a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:25-100
+595            </intent-filter>
+596        </receiver>
+597
+598        <uses-library
+598-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+599            android:name="androidx.window.extensions"
+599-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+600            android:required="false" />
+600-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+601        <uses-library
+601-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+602            android:name="androidx.window.sidecar"
+602-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+603            android:required="false" />
+603-->[androidx.window:window:1.0.0-beta04] /Users/goflamingo/.gradle/caches/transforms-3/9b97af2d8b4c61c1be8b9dc07f87d138/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+604
+605        <service
+605-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+606            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+606-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+607            android:exported="false" >
+607-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+608            <meta-data
+608-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+609                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+609-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+610                android:value="cct" />
+610-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/5f7cb637932850166b54a4d2ff6d17cd/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+611        </service>
+612        <service
+612-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+613            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+613-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+614            android:exported="false"
+614-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+615            android:permission="android.permission.BIND_JOB_SERVICE" >
+615-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+616        </service>
+617
+618        <receiver
+618-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+619            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+619-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+620            android:exported="false" />
+620-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/goflamingo/.gradle/caches/transforms-3/78a6c83cce85e0a390e310858b1f7b0f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+621        <receiver
+621-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+622            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+622-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+623            android:directBootAware="false"
+623-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+624            android:enabled="true"
+624-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+625            android:exported="true"
+625-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+626            android:permission="android.permission.DUMP" >
+626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+627            <intent-filter>
+627-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+628                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+628-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+628-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+629            </intent-filter>
+630            <intent-filter>
+630-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+631                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+631-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+631-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+632            </intent-filter>
+633            <intent-filter>
+633-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+634                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+634-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+634-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+635            </intent-filter>
+636            <intent-filter>
+636-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+637                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+637-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+637-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/goflamingo/.gradle/caches/transforms-3/7b137905fc07ea1458e82c9f9f810026/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+638            </intent-filter>
+639        </receiver>
+640
+641        <service
+641-->[androidx.room:room-runtime:2.2.5] /Users/goflamingo/.gradle/caches/transforms-3/94de5f06a57431e6ad63ea89c6a27779/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+642            android:name="androidx.room.MultiInstanceInvalidationService"
+642-->[androidx.room:room-runtime:2.2.5] /Users/goflamingo/.gradle/caches/transforms-3/94de5f06a57431e6ad63ea89c6a27779/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+643            android:directBootAware="true"
+643-->[androidx.room:room-runtime:2.2.5] /Users/goflamingo/.gradle/caches/transforms-3/94de5f06a57431e6ad63ea89c6a27779/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+644            android:exported="false" />
+644-->[androidx.room:room-runtime:2.2.5] /Users/goflamingo/.gradle/caches/transforms-3/94de5f06a57431e6ad63ea89c6a27779/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+645    </application>
+646
+647</manifest>

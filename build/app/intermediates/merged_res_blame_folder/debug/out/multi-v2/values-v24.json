@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.spagreen.yoori.app-mergeDebugResources-51:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/goflamingo/.gradle/caches/transforms-3/a3c48418483838b153b1a34047d921b1/transformed/appcompat-1.5.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/goflamingo/.gradle/caches/transforms-3/733bc8aea67e4322f9ad95f02a7b1f1a/transformed/media-1.4.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                }
+            ]
+        }
+    ]
+}

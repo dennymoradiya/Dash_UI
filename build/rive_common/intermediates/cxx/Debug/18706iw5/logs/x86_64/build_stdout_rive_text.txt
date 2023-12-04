@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/goflamingo/.pub-cache/hosted/pub.dev/rive_common-0.1.0/android/.cxx/Debug/18706iw5/x86_64'
+ninja: no work to do.

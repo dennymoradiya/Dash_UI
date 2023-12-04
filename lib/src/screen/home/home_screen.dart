@@ -204,6 +204,7 @@ class HomeScreenContent extends StatelessWidget {
                     ? const ShimmerHomeContent()
                     : Column(
                         children: [
+                         
                           Expanded(
                             child: SizedBox(
                               height: size.height,
@@ -298,16 +299,16 @@ class HomeScreenContent extends StatelessWidget {
                   child: Container(
                     height: 150.h,
                     width: isMobile(context) ? 105.w : 80.w,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(7.r),
-                      ),
-                      border: Border.all(
-                        width: 1,
-                        color: const Color(0xFFEEEEEE),
-                      ),
-                    ),
+                    // decoration: BoxDecoration(
+                    //   color: Colors.white,
+                    //   borderRadius: BorderRadius.all(
+                    //     Radius.circular(7.r),
+                    //   ),
+                    //   border: Border.all(
+                    //     width: 1,
+                    //     color: const Color(0xFFEEEEEE),
+                    //   ),
+                    // ),
                     child: Column(
                       children: [
                         Expanded(
@@ -497,10 +498,10 @@ class HomeScreenContent extends StatelessWidget {
   // Categories
   Widget _categories(categoryIndex, context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 4.h),
+      padding: EdgeInsets.symmetric(vertical: 7.h),
       child: Container(
         height: isMobile(context) ? 30.h : 40.h,
-        color: Colors.white,
+        // color: Colors.white,
         alignment: Alignment.center,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -539,7 +540,7 @@ class HomeScreenContent extends StatelessWidget {
                       child: Padding(
                         padding: EdgeInsets.symmetric(
                           horizontal: 6.w,
-                          vertical: 4.h,
+                          vertical: 7.h,
                         ),
                         child: Text(
                           homeScreenContentController.homeDataModel.value
@@ -1515,7 +1516,7 @@ class HomeScreenContent extends StatelessWidget {
                         children: [
                           Container(
                             width: isMobile(context) ? 30.w : 20.w,
-                            height: isMobile(context) ? 20.h : 23.h,
+                            height: isMobile(context) ? 23.h : 26.h,
                             decoration: BoxDecoration(
                               color: const Color(0xff333333),
                               borderRadius: const BorderRadius.all(
@@ -1541,11 +1542,17 @@ class HomeScreenContent extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 5.w,
+                            width: 3.w,
+                          ),
+                          Text(":", style: isMobile(context)
+                        ? AppThemeData.headerTextStyle
+                        : AppThemeData.headerTextStyleTab,),
+                          SizedBox(
+                            width: 3.w,
                           ),
                           Container(
                             width: isMobile(context) ? 30.w : 20.w,
-                            height: isMobile(context) ? 20.h : 23.h,
+                            height: isMobile(context) ? 23.h : 26.h,
                             decoration: BoxDecoration(
                               color: const Color(0xff333333),
                               borderRadius: BorderRadius.all(
@@ -1571,11 +1578,17 @@ class HomeScreenContent extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 5.w,
+                            width: 3.w,
+                          ),
+                          Text(":", style: isMobile(context)
+                        ? AppThemeData.headerTextStyle
+                        : AppThemeData.headerTextStyleTab,),
+                          SizedBox(
+                            width: 3.w,
                           ),
                           Container(
                             width: isMobile(context) ? 30.w : 20.w,
-                            height: isMobile(context) ? 20.h : 23.h,
+                            height: isMobile(context) ? 23.h : 26.h,
                             decoration: BoxDecoration(
                               color: const Color(0xff333333),
                               borderRadius: BorderRadius.all(

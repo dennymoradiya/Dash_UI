@@ -82,7 +82,7 @@ class CurrencyConverterController extends GetxController implements GetxService{
     ConfigModel data = LocalDataHelper().getConfigData();
     if (data.data!.currencyConfig!.currencySymbolFormat! == "amount_symbol" ||
         data.data!.currencyConfig!.currencySymbolFormat! == "amount__symbol") {
-      return "right";
+      return "left";
     } else {
       return "left";
     }

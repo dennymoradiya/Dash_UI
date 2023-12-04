@@ -1,0 +1,4 @@
+/Users/goflamingo/Library/Android/sdk/cmake/3.18.1/bin/ninja \
+  -C \
+  /Users/goflamingo/.pub-cache/hosted/pub.dev/rive_common-0.1.0/android/.cxx/Debug/18706iw5/arm64-v8a \
+  rive_text
